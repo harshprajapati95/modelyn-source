@@ -4,6 +4,11 @@ import Button from '../../components/ui/Button';
 import Reveal from '../../components/ui/Reveal';
 import { MeshBackdrop } from '../../components/ui/Backdrop';
 
+function scrollTo(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 export default function DocsHero() {
   return (
     <section className="relative overflow-hidden pt-20 pb-12 sm:pt-24">
@@ -20,9 +25,13 @@ export default function DocsHero() {
             Install the CLI, authenticate, and deploy. That's the full quickstart.
           </p>
         </Reveal>
-        <Reveal delay={0.15} className="flex flex-wrap gap-3">
-          <Button variant="primary" size="md">Quickstart Guide</Button>
-          <Button variant="secondary" size="md">API Reference</Button>
+        <Reveal delay={0.15} className="flex flex-wrap justify-center gap-3">
+          <Button variant="primary" size="md" onClick={() => scrollTo('quickstart')}>
+            Quickstart Guide
+          </Button>
+          <Button variant="secondary" size="md" onClick={() => scrollTo('api-reference')}>
+            API Reference
+          </Button>
         </Reveal>
       </div>
     </section>

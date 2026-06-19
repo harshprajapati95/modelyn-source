@@ -11,7 +11,7 @@ export default function QuickstartSection() {
   const [installTab, setInstallTab] = useState('pip');
 
   return (
-    <section className="section-py relative">
+    <section id="quickstart" className="section-py relative">
       <div className="container-px mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="Quickstart"

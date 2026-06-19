@@ -8,7 +8,7 @@ const methodTone = { GET: 'green', POST: 'blue', PUT: 'cyan', DELETE: 'neutral' 
 
 export default function ApiSection() {
   return (
-    <section className="section-py relative border-t border-border-soft">
+    <section id="api-reference" className="section-py relative border-t border-border-soft">
       <div className="container-px mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="REST API"
