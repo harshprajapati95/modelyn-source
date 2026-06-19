@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C7CFF"/>
+      <stop offset="0.5" stop-color="#9B5CFF"/>
+      <stop offset="1" stop-color="#27D9D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="120" r="260" fill="#4C7CFF" opacity="0.12"/>
+  <circle cx="200" cy="520" r="220" fill="#9B5CFF" opacity="0.12"/>
+  <rect x="80" y="80" width="1040" height="470" rx="20" fill="#0E1426" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="120" y="130" width="56" height="56" rx="14" fill="url(#acc)"/>
+  <text x="195" y="168" fill="#F4F6FC" font-family="Arial" font-size="40" font-weight="700">Modelyn</text>
+  <text x="120" y="250" fill="#F4F6FC" font-family="Arial" font-size="46" font-weight="700">Model deployment without</text>
+  <text x="120" y="305" fill="#F4F6FC" font-family="Arial" font-size="46" font-weight="700">the ops overhead.</text>
+  <text x="120" y="360" fill="#94A0BD" font-family="Arial" font-size="24">Deploy, scale, and monitor ML models from one dashboard.</text>
+  <rect x="120" y="420" width="220" height="64" rx="10" fill="url(#acc)"/>
+  <text x="155" y="460" fill="#050816" font-family="Arial" font-size="22" font-weight="700">Request Early Access</text>
+</svg>
